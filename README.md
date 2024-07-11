@@ -68,7 +68,6 @@ O projeto é estruturado com os seguintes arquivos principais:
 
 ### JavaScript (`./js`)
 
-```js
 ## Funcionalidades JavaScript
 
 ### Funções de API (`js/api.js`)
@@ -94,7 +93,6 @@ O projeto é estruturado com os seguintes arquivos principais:
 
 - Desenvolvido por Vanderson A Santos
 - ALURA LATAM - 2024
-```
 
 
 
