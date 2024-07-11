@@ -1,0 +1,34 @@
+{
+  "produtos": [
+    {
+      "id": "0ff4",
+      "nome": "Horizon: Zero Dawn",
+      "preco": "100.00",
+      "imagem": "https://i.ytimg.com/vi_webp/u4-FCsiF5x4/maxresdefault.webp"
+    },
+    {
+      "id": "a2e9",
+      "nome": "Horizon: Frozen Wilds",
+      "preco": "50.00",
+      "imagem": "https://image.api.playstation.com/cdn/UP9000/CUSA01967_00/aNpgx8Dy8VuOsTjbJWgsWqPJkN4QBJ1o.png"
+    },
+    {
+      "id": "a634",
+      "nome": "Horizon: Forbidden West",
+      "preco": "250.00",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202107/3100/ki0STHGAkIF06Q4AU8Ow4OkV.png"
+    },
+    {
+      "id": "8c75",
+      "nome": "God Of War: Ragnarok",
+      "preco": "300.00",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/4xJ8XB3bi888QTLZYdl7Oi0s.png"
+    },
+    {
+      "id": "cbdf",
+      "nome": "God Of War",
+      "preco": "250.00",
+      "imagem": "https://image.api.playstation.com/vulcan/img/rnd/202010/2217/k1laGX3Ita2N6Jlb7BbkHYAr.png"
+    }
+  ]
+}

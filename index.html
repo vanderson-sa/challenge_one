@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="./assets/game.png" type="image/x-icon">
+    
+    <title>Challenge: Alura Geek</title>
+</head>
+<body>
+
+    <header>
+        <div class="header">
+            <img src="./assets/coracao.svg" alt="Três corações">
+            <h2>AluraGeek</h2>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="produto">
+            <h2 class="produto__title">MEUS PRODUTOS:</h2>
+            <div class="produto__box" alt="produtos" data-products>
+            </div>
+        </section>
+        
+        <section class="form">
+            <h2 class="form__title">ADICIONAR PRODUTOS:</h2>
+            <form class="form__form" action="" method="post" data-form>
+                <input class="form__input" type="text" name="name" placeholder="nome..." required data-form-name>
+                <input class="form__input" type="text" step="0.01" name="price" placeholder="valor..." required data-form-price>
+                <input class="form__input" type="url" name="img" placeholder="url da imagem..." required data-form-image>
+                <div class="form__btn__box">
+                    <input class="form__btn submit__btn" type="submit" value="Salvar">
+                    <input class="form__btn clear__btn" type="button" value="Limpar" data-form-clear>
+                </div>
+            </form>
+            <h5 class="message" id="messageError"></h5>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <img src="./assets/coracao.svg" alt="3 corações em pixel art">
+            <h2>AluraGeek</h2>
+        </div>
+        <p class="footer__titulo">DESENVOLVIDO POR VANDERSON A SANTOS</p>
+        <p class="footer__sub">ALURA LATAM - 2024</p>
+    </footer>
+
+
+    <script type="module" src="./js/api.js"></script>
+    <script type="module" src="./js/products.js"></script>
+    <script type="module" src="./js/form.js"></script>
+    <script type="module" src="./js/clearForm.js"></script>
+</body>
+</html>
